@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+/*跳转到Mylocation activity*/
+
+    <Button
+        android:id="@+id/button_mylocation"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:text="mylocation"></Button>
+
+    /*跳转到activity*/
+
+    <Button
+        android:id="@+id/button_myroute"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:text="myroute"></Button>
+
+    /*跳转到页面布局*/
+
+    <Button
+        android:id="@+id/button_compare"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:text="compare"></Button>
+</LinearLayout>
